@@ -13,3 +13,11 @@
 .dikanan{
     text-align: right;
 }
+.video{
+    float: right;
+    width: 50%;
+}
+.fleft{
+    float: left;
+    width: 40%;
+}
