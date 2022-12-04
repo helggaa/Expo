@@ -16,6 +16,8 @@
 .video{
     float: right;
     width: 50%;
+    padding: 10px;
+    outline: thick ridge #99ffce;
 }
 .fleft{
     float: left;
