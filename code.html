@@ -85,10 +85,28 @@
     border-radius:0 !important;
     transition: box-shadow 0.5s;
   }
+  .panel2 { 
+    border-radius:0 !important;
+  }
   .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
+    border: 1px solid #99ffce;
+    background-color: #fff !important;
+    color: #99ffce;
+  }
+  .btn2 {
+    margin: 15px 0;
+    background-color: #99ffce;
+    color: #344D47;
+  }
+  .btn2:hover {
+    border: 0px solid #99ffce;
+    background-color: #fff !important;
+    color: #99ffce;
+  }
+  .panel-footer2 .btn:hover {
     border: 1px solid #99ffce;
     background-color: #fff !important;
     color: #99ffce;
@@ -113,7 +131,14 @@
   .panel-footer h3 {
     font-size: 32px;
   }
+  .panel-footer2 h3 {
+    font-size: 32px;
+  }
   .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer2 h4 {
     color: #aaa;
     font-size: 14px;
   }
@@ -229,7 +254,7 @@
 <div class="jumbotron text-center">
   <h1>Traspick</h1> 
   <p>Assists you in managing your household trash</p> 
-  <button class="btn btn-lg" style="-webkit-text-fill-color: #99ffce;background-color: #344D47;">Come join us!</button>
+  <button class="btn2 btn-lg">Come join us!</button>
 </div>
 
 <!-- about -->
@@ -245,20 +270,6 @@
       <iframe width="100%" height="350"
       src="https://www.youtube.com/embed/Yg-YYPVxK-E" title="Traspick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <!-- <span class="glyphicon glyphicon-signal logo"></span> -->
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
-    </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
 </div>
@@ -349,20 +360,19 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+  <h2 class="text-center">Log in</h2>
   <div class="row slideanim">
-      <div class="panel panel-default text-center">
+      <div class="panel2 panel-default text-center">
         <div class="panel-footer2">
           <button class="btn btn-lg">Sign Up</button>
+          <br>
+          <p>Or</p>
           <button class="btn btn-lg">Log in</button>
         </div>
       </div>      
     </div>
   </div>
 </div>
-
-<!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
