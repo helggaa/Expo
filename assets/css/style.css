@@ -1245,6 +1245,7 @@ h6 {
   font-size: 14px;
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
+  background-color: #65c295;
 }
 
 .footer .copyright {
