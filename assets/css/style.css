@@ -14,8 +14,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background: #f6f9ff;
-  color: #444444;
+  background: #99ffce;
+  color: #344D47;
 }
 
 a {
@@ -397,7 +397,7 @@ h6 {
   z-index: 997;
   height: 60px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-  background-color: #fff;
+  background-color: #99ffce;
   padding-left: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
@@ -715,7 +715,7 @@ h6 {
 
 .sidebar-nav .nav-link.collapsed {
   color: #012970;
-  background: #fff;
+  background: #99ffce;
 }
 
 .sidebar-nav .nav-link.collapsed i {
