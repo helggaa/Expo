@@ -15,7 +15,9 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -50,11 +52,11 @@
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
 
-    
+
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
 
-        
+
         <li class="nav-item dropdown">
 
           <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
@@ -219,7 +221,7 @@
             <li>
               <a class="dropdown-item d-flex align-items-center" href="#">
                 <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
+                <a href="code.html"><span>Sign Out</span></a>
               </a>
             </li>
 
@@ -323,7 +325,8 @@
                       <i class="bi bi-journal-text"></i>
                     </div>
                     <div class="ps-3">
-                      <a href="forms-elements.html"><button type="button" class="btn btn-outline-info btn-lg">Order now!</button> </a>
+                      <a href="forms-elements.html"><button type="button" class="btn btn-outline-info btn-lg">Order
+                          now!</button> </a>
                       <!-- <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span> -->
 
                     </div>
@@ -345,7 +348,7 @@
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                       <i class="bi bi-people"></i>
                     </div>
-                    <div class="ps-3"> 
+                    <div class="ps-3">
                       <h6>556</h6>
                       <span class="text-danger small pt-1 fw-bold">KG</span>
 
@@ -362,43 +365,45 @@
               <div class="card">
 
                 <div class="card-body">
-                  <a href="tables-general.html"><h5 class="card-title">Total Trash <span>/This year</span></h5></a>
+                  <a href="tables-general.html">
+                    <h5 class="card-title">Total Trash <span>/This year</span></h5>
+                  </a>
 
                   <!-- Line Chart -->
                   <div id="lineChart"></div>
 
-              <script>
-                document.addEventListener("DOMContentLoaded", () => {
-                  new ApexCharts(document.querySelector("#lineChart"), {
-                    series: [{
-                      name: "Kilograms",
-                      data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
-                    }],
-                    chart: {
-                      height: 350,
-                      type: 'line',
-                      zoom: {
-                        enabled: false
-                      }
-                    },
-                    dataLabels: {
-                      enabled: false
-                    },
-                    stroke: {
-                      curve: 'straight'
-                    },
-                    grid: {
-                      row: {
-                        colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
-                        opacity: 0.5
-                      },
-                    },
-                    xaxis: {
-                      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
-                    }
-                  }).render();
-                });
-              </script>
+                  <script>
+                    document.addEventListener("DOMContentLoaded", () => {
+                      new ApexCharts(document.querySelector("#lineChart"), {
+                        series: [{
+                          name: "Kilograms",
+                          data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+                        }],
+                        chart: {
+                          height: 350,
+                          type: 'line',
+                          zoom: {
+                            enabled: false
+                          }
+                        },
+                        dataLabels: {
+                          enabled: false
+                        },
+                        stroke: {
+                          curve: 'straight'
+                        },
+                        grid: {
+                          row: {
+                            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+                            opacity: 0.5
+                          },
+                        },
+                        xaxis: {
+                          categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+                        }
+                      }).render();
+                    });
+                  </script>
                   <!-- End Line Chart -->
 
                 </div>
@@ -499,7 +504,7 @@
                   <div class="activite-label">2 hrs ago</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
                   <div class="activity-content">
-                   Garbage Collector Accepted the order
+                    Garbage Collector Accepted the order
                   </div>
                 </div><!-- End activity item-->
 
@@ -521,15 +526,16 @@
 
   </main><!-- End #main -->
 
- <!-- ======= Footer ======= -->
- <footer id="footer" class="footer">
-  <div class="credits">
-Created by Biningging
-</div>
-</footer>
-<!-- End Footer -->
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="credits">
+      Created by Biningging
+    </div>
+  </footer>
+  <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
