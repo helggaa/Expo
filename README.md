@@ -1,2 +1,2 @@
 # Expo
- 
+ #Our Expo web development project, collaboratively undertaken by Helga Parama Zhafran, Muhammad Farhan Machdi, Muhammad Safiq Alfi Suwaid, and Hudaifah Priohastono, aims to address household trash management challenges. The application not only facilitates efficient user registration and login processes but also boasts a seamlessly functioning front-end. Its purpose extends beyond mere convenience, striving to optimize trash pickup scheduling for enhanced efficiency in waste disposal.
